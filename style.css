@@ -1,3 +1,17 @@
+:root {
+    --logo-height: 128px;
+}
+
+
+#logotype, #navbar {
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-item {
+    display: inline;
+}
+
+
 #logotype-image {
-    height: 128px;
+    height: var(--logo-height);
 }
