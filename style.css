@@ -3,15 +3,25 @@
 }
 
 
-#logotype, #navbar {
-    display: inline-block;
-    vertical-align: middle;
-}
-.nav-item {
-    display: inline;
-}
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
+    width: 30%;
+    min-width: 196px;
+    max-width: 300px;
+    min-height: 300px;
+    position: fixed;
 
-#logotype-image {
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#logotype {
     height: var(--logo-height);
+}
+.side-item {
+    font-size: 30px;
 }
