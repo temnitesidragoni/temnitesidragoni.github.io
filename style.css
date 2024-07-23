@@ -28,3 +28,11 @@
 #news, #crew, #shop {
     margin: 24px auto;
 }
+
+
+#section-home {
+    display: inherit;
+}
+#section-news, #section-crew, #section-shop {
+    display: none;
+}
