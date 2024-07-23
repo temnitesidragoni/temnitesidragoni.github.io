@@ -1,5 +1,7 @@
 const navbar = document.getElementById("navbar");
+
 const main = document.getElementById("main");
+const maincontent = document.getElementById("maincontent");
 const footer = document.getElementById("footer");
 
 
