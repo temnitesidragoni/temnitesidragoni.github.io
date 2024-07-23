@@ -25,3 +25,6 @@
 .side-item {
     font-size: 30px;
 }
+#news, #crew, #shop {
+    margin: 24px auto;
+}
